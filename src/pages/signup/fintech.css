@@ -1,0 +1,166 @@
+
+   * {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0;
+  }  
+
+  
+  .header-name {
+    text-align: left;
+    font-size: x-large;
+    font-weight: bolder;
+  }
+  
+  .header-text {
+    margin-bottom: 2rem;
+    
+  }
+  
+  .header-tag {
+    margin-bottom: 4rem;
+    color: #012A4A;
+  }
+
+  .col-left {
+    background-color: #E5E5E5;
+  }
+  
+  .left-side {
+    margin-top: 3rem;
+  }
+  
+  .right-side-img {
+    width: 100%;
+  }
+  
+
+  .right-side-img {
+    object-fit:cover; 
+    background-image: url("../assets/img/signup-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+
+  
+  .container-fluid {
+    padding: 0;
+  }
+  
+  .forms-items, label {
+    text-align: left;
+    font-weight: 500;
+  }
+
+  .input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid   rgb(80, 79, 79) ;
+    border-radius: 8px;
+    height: 3rem;
+  }
+
+  .form-control:focus {
+    box-shadow: none;
+  }
+
+
+
+  .input-container span {
+    margin-left: 1rem;
+    color: rgb(170, 169, 169);
+  }
+
+  
+  .forms-items input {
+    border: none;
+    font-family: FontAwesome;
+    outline: none;
+    margin-left: 1rem;
+    padding-left: 0;
+    font-family: sans-serif;
+    background: #E5E5E5;
+  }
+
+  .form-control:focus {
+    outline: none !important
+  }
+  
+  .form-container {
+    padding-left: 30%;
+    width: 95%;
+  }
+  
+  
+  
+  .btn{
+    background-image: linear-gradient(to right, #4361ee, #3A0CA3, #3A0CA3);
+    width: 100%;
+    color: white;
+    padding: .8rem;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  
+  .signup-button {
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .login-span {
+    font-weight: bold;
+  }
+  
+  .login{
+    margin-bottom: 7rem;
+  }
+  
+  .left {
+    margin-right: 2rem;
+    text-align: left;
+  }
+
+  @media only screen and (max-width: 500px) {
+    .signup-background, .left{
+      width: 100vw;
+      margin: 0;
+    }
+    
+    .header-name {
+        text-align: center;
+        width: 100%;
+    }
+    .header-text{
+        width: 100%;
+        font-size:large;
+    }
+    .header-tag {
+        margin-top: 3rem;
+    }
+    .form-items{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .form-container {
+      margin-left: -4rem;
+    }
+
+    .input-container{
+      width: 100%;
+    }
+
+    .right-side-img, .right-side-div {
+      display: none;
+    }
+    
+    
+
+    .btn-container {
+        width: 100%;
+       
+    }
+  }
